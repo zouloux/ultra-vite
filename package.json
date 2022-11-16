@@ -6,8 +6,10 @@
   "license": "",
   "type": "module",
   "scripts": {
+    "clean": "rm -rf ./public/ && mkdir ./public/",
     "dev": "vite dev --host --force",
-    "build": "vite build --emptyOutDir"
+    "build": "vite build --emptyOutDir",
+    "preview": "npm run build && vite preview"
   },
   "devDependencies": {
     "less": "^4.1.3",
