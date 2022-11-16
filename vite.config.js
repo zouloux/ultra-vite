@@ -16,6 +16,8 @@ export default defineConfig( viteConfig => {
 		build: {
 			outDir: resolve(appConfig.output),
 			assetsDir: "./",
+			// Create manifest file which include all generated file paths
+			manifest: true,
 			rollupOptions: {
 				input: appConfig.inputs.map( e => resolve(e) ),
 			}

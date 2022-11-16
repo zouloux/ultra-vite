@@ -9,6 +9,7 @@
     "clean": "rm -rf ./public/ && mkdir ./public/",
     "dev": "vite dev --host --force",
     "build": "vite build --emptyOutDir",
+    "build-watch": "vite build --watch --emptyOutDir",
     "preview": "npm run build && vite preview"
   },
   "devDependencies": {
