@@ -1,0 +1,17 @@
+{
+  "name": "ultra-vite",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev --host --force",
+    "build": "vite build --emptyOutDir"
+  },
+  "devDependencies": {
+    "less": "^4.1.3",
+    "typescript": "^4.9.3",
+    "vite": "^3.2.4"
+  }
+}
